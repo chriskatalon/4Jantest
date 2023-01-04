@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_SOHO Double Pack 1_slds-checkbox_faux</name>
+   <tag></tag>
+   <elementGuidId>ccbcc755-e42b-4f81-a5c3-2196660a416f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.slds-checkbox__label > span.slds-checkbox_faux</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='components']/div/div[2]/ul/li/ul/li/div/span/span/lightning-input/div/span/label/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-checkbox_faux</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;components&quot;)/div[@class=&quot;slds-grid slds-wrap&quot;]/div[@class=&quot;slds-p-around_small slds-size_12-of-12&quot;]/ul[@class=&quot;slds-tree&quot;]/li[@class=&quot;cPricingHierarchieNewCMP&quot;]/ul[1]/li[@class=&quot;cPricingHierarchieNewCMP&quot;]/div[@class=&quot;slds-tree__item&quot;]/span[@class=&quot;slds-has-flexi-truncate&quot;]/span[@class=&quot;slds-tree__item-label&quot;]/lightning-input[@class=&quot;slds-float_left slds-form-element&quot;]/div[@class=&quot;slds-form-element__control slds-grow&quot;]/span[@class=&quot;slds-checkbox&quot;]/label[@class=&quot;slds-checkbox__label&quot;]/span[@class=&quot;slds-checkbox_faux&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='components']/div/div[2]/ul/li/ul/li/div/span/span/lightning-input/div/span/label/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/label/span</value>
+   </webElementXpaths>
+</WebElementEntity>

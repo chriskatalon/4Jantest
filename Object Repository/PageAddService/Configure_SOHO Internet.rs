@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Configure_SOHO Internet</name>
+   <tag></tag>
+   <elementGuidId>16d96d8e-c68f-4828-a0c4-dd5709692bbb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//span[contains(text(), &quot;SOHO Internet&quot;)]//parent::span)[1]//following::span/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e2d40fa9-a59c-4f40-a800-91565af5938b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-visual-picker__figure slds-visual-picker__text slds-align_absolute-center slds-visual-picker__icon</value>
+      <webElementGuid>43d77d79-81c1-44a4-8900-782f3f5bac2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>3ff5b37b-7a85-45e6-8ef9-f6b0c72e116d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-aura-rendered-by</name>
+      <type>Main</type>
+      <value>40:110;a</value>
+      <webElementGuid>d5679676-8e08-4386-8b80-cd92c61ecb8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SOHO Double video</value>
+      <webElementGuid>115d3e35-cab5-402f-b64b-edc68cf2b5b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;New_Service&quot;)/div[@class=&quot;slds-modal__content&quot;]/div[@class=&quot;slds-modal__content slds-scrollable_y&quot;]/div[@class=&quot;slds-grid slds-wrap slds-m-around_large slds-grid_align-center&quot;]/div[@class=&quot;slds-col slds-grid slds-grid_vertical-align-center slds-grid_align-center slds-p-around_small&quot;]/div[@class=&quot;picker-outer slds-p-around_small&quot;]/div[@class=&quot;slds-visual-picker slds-visual-picker_medium&quot;]/label[1]/span[@id=&quot;2&quot;]</value>
+      <webElementGuid>1aaa4885-95db-4ed7-9d01-8dde462c0052</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='2']</value>
+      <webElementGuid>7fe110a0-e4c2-43a5-be7f-c42bc5caf3e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='New_Service']/div/div[3]/div/div[3]/div/div/label/span</value>
+      <webElementGuid>f91abaa1-67fe-4da5-9306-43037bcc7ec1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configure'])[2]/following::span[1]</value>
+      <webElementGuid>f1167820-c566-40ed-91ed-7f74db483a61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SOHO Internet'])[1]/following::span[2]</value>
+      <webElementGuid>c6eb226e-7fd0-4451-921a-8afdfe696b4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configure'])[3]/preceding::span[2]</value>
+      <webElementGuid>450c629a-ee52-47a8-946c-eb9d4735be3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/label/span</value>
+      <webElementGuid>1f198ae3-2a07-4682-8a04-ad42528043b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>(//span[contains(text(), &quot;SOHO Internet&quot;)]//parent::span)[1]//following::span/button</value>
+      <webElementGuid>6383e5ce-8763-4b10-8bda-8220d3bcbe80</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

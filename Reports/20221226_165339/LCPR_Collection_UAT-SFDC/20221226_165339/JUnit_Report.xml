@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LCPR_Collection_UAT-SFDC" time="518.741" tests="1" failures="0" errors="0">
+   <testsuite name="LCPR_RegressionSuite_QA_new" tests="1" failures="0" errors="0" time="468.121" skipped="0" timestamp="2022-12-26 16:54:14" hostname="aykrishn - DIN69001172.corp.capgemini.com" id="Test Suites/LCPR_RegressionSuite_QA_new">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349"/>
+         <property name="logFiles" value="C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672053895453.png, keyes\keyes-openBrowser.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672053913078.png, keyes\keyes-Credentials.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672053956778.png, keyes\keyes-Login.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672053973990.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054001428.png, keyes\keyes-User Detail.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054056143.png, keyes\keyes-User Detail_login.png, keyes\keyes-gotoOpportunity.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054076976.png, keyes\keyes-NewOpportunity.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054121114.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054121325.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054123743.png, keyes\keyes-manageOpportunity.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054125528.png, keyes\keyes-SaveOpportunity.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054175337.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054181550.png, keyes\keyes-OpportunityDetail.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054223594.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054232071.png, keyes\keyes-Product_addOfferAttributes.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054242333.png, keyes\keyes-Product_addComponents.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054246105.png, keyes\keyes-calculatePrice.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054253700.png, keyes\keyes-showCart.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054268155.png, keyes\keyes-ApprovalCheck.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054305239.png, C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054318011.png, keyes\keyes-gotoQuote.png"/>
+         <property name="hostName" value="aykrishn - DIN69001172.corp.capgemini.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="172.19.74.83"/>
+         <property name="sessionId" value="2b3ea939906e92659a996e72f52239f3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Regression/JIRA/QA-5756_LCPR - Regression Test Happy Path with 3 products" time="466.718" classname="Test Cases/Regression/JIRA/QA-5756_LCPR - Regression Test Happy Path with 3 products" status="PASSED">
+         <system-out><![CDATA[2022-12-26 16:54:15 - [TEST_CASE][PASSED] - Test Cases/Regression/JIRA/QA-5756_LCPR - Regression Test Happy Path with 3 products: Test Cases/Regression/JIRA/QA-5756_LCPR - Regression Test Happy Path with 3 products
+
+2022-12-26 16:54:17 - [TEST_STEP][PASSED] - todayDate = calculateTodayDate(): null
+
+2022-12-26 16:54:17 - [TEST_STEP][PASSED] - todayDate = "": null
+
+2022-12-26 16:54:17 - [TEST_STEP][PASSED] - cal = Calendar.getInstance(): null
+
+2022-12-26 16:54:17 - [TEST_STEP][PASSED] - todayDate = todayDate + cal.get(MONTH) + 1 + "/": null
+
+2022-12-26 16:54:17 - [TEST_STEP][PASSED] - todayDate = todayDate + cal.get(DAY_OF_MONTH) + "/": null
+
+2022-12-26 16:54:17 - [TEST_STEP][PASSED] - todayDate = todayDate + cal.get(YEAR): null
+
+2022-12-26 16:54:17 - [TEST_STEP][PASSED] - return todayDate: null
+
+2022-12-26 16:54:17 - [TEST_STEP][PASSED] - todayDateTime = calculateTodayDateTime(): null
+
+2022-12-26 16:54:17 - [TEST_STEP][PASSED] - todayDateTime = "": null
+
+2022-12-26 16:54:17 - [TEST_STEP][PASSED] - cal = Calendar.getInstance(): null
+
+2022-12-26 16:54:17 - [TEST_STEP][PASSED] - todayDateTime = todayDateTime + cal.get(MONTH) + 1 + "/": null
+
+2022-12-26 16:54:17 - [TEST_STEP][PASSED] - todayDateTime = todayDateTime + cal.get(DAY_OF_MONTH) + "/": null
+
+2022-12-26 16:54:17 - [TEST_STEP][PASSED] - todayDateTime = todayDateTime + cal.get(YEAR) + " ": null
+
+2022-12-26 16:54:17 - [TEST_STEP][PASSED] - now = LocalTime.now(): null
+
+2022-12-26 16:54:17 - [TEST_STEP][PASSED] - dateTimeFormatter = DateTimeFormatter.ofPattern("hh:mm a"): null
+
+2022-12-26 16:54:17 - [TEST_STEP][PASSED] - todayDateTime += now.format(dateTimeFormatter): null
+
+2022-12-26 16:54:18 - [TEST_STEP][PASSED] - return todayDateTime: null
+
+2022-12-26 16:54:18 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-12-26 16:54:18 - [TEST_STEP][PASSED] - todaysDate1 = today.format("MM_dd_yy"): null
+
+2022-12-26 16:54:18 - [TEST_STEP][PASSED] - nowTime1 = today.format("hhmmss"): null
+
+2022-12-26 16:54:18 - [TEST_STEP][PASSED] - uk.capgemini.controllers.Login.navigateToLCPRurl(url, TC_Name): uk.capgemini.controllers.Login.navigateToLCPRurl is PASSED
+
+2022-12-26 16:54:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-26 16:54:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-26 16:54:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-26 16:54:50 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-26 16:54:55 - [MESSAGE][PASSED] - Navigate to 'https://cwc--uatsfdc.sandbox.my.salesforce.com/' successfully
+
+2022-12-26 16:55:09 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:55:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672053895453.png]]
+
+2022-12-26 16:55:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:55:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-openBrowser.png]]
+
+2022-12-26 16:55:10 - [MESSAGE][PASSED] - uk.capgemini.controllers.Login.navigateToLCPRurl is PASSED
+
+2022-12-26 16:55:10 - [TEST_STEP][PASSED] - uk.capgemini.controllers.Login.loginwithCredentials(userName, passWord, TC_Name): uk.capgemini.controllers.Login.loginwithCredentials is PASSED
+
+2022-12-26 16:55:12 - [MESSAGE][PASSED] - Text 'norma.lamprea@cwc.com.uatsfdc' is set on object 'Object Repository/PageLogIn/input_Username_username'
+
+2022-12-26 16:55:13 - [MESSAGE][PASSED] - Text 'Pruebas123*' is set on object 'Object Repository/PageLogIn/input_Password_pw'
+
+2022-12-26 16:55:13 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:55:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672053913078.png]]
+
+2022-12-26 16:55:14 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:55:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Credentials.png]]
+
+2022-12-26 16:55:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-26 16:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PageLogIn/input_Password_Login' is clicked on
+
+2022-12-26 16:55:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-26 16:56:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672053956778.png]]
+
+2022-12-26 16:56:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:56:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Login.png]]
+
+2022-12-26 16:56:02 - [MESSAGE][PASSED] - uk.capgemini.controllers.Login.loginwithCredentials is PASSED
+
+2022-12-26 16:56:02 - [TEST_STEP][PASSED] - uk.capgemini.controllers.Login.secondLoginwithLcprUser(LoginwithSecondUser, TC_Name): uk.capgemini.controllers.Login.secondLoginwithLcprUser is PASSED
+
+2022-12-26 16:56:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//span[@class="uiImage"])[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-12-26 16:56:14 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageDoubleLogIn/LightningIcon' located by '(//span[@class="uiImage"])[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageDoubleLogIn/LightningIcon' located by '(//span[@class="uiImage"])[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at uk.capgemini.controllers.Login.secondLoginwithLcprUser(Login.groovy:97)
+	at uk.capgemini.controllers.Login.invokeMethod(Login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at QA-5756_LCPR - Regression Test Happy Path with 3 products.run(QA-5756_LCPR - Regression Test Happy Path with 3 products:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1672053829514.run(TempTestSuite1672053829514.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672053973990.png]]
+
+2022-12-26 16:56:16 - [MESSAGE][PASSED] - Text 'Cynthia Tirado' is set on object 'Object Repository/PageDoubleLogIn/input_Logout_str'
+
+2022-12-26 16:56:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-26 16:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PageDoubleLogIn/div_Logout_searchButtonContainer' is clicked on
+
+2022-12-26 16:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PageDoubleLogIn/a_LCPR USER DO NOT INACTIVATE Test 01' is clicked on
+
+2022-12-26 16:56:36 - [MESSAGE][PASSED] - Object: 'Object Repository/PageDoubleLogIn/b_Service Requests_zen-selectArrow' is clicked on
+
+2022-12-26 16:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PageDoubleLogIn/span_User Detail' is clicked on
+
+2022-12-26 16:56:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-26 16:56:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:56:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054001428.png]]
+
+2022-12-26 16:56:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:56:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-User Detail.png]]
+
+2022-12-26 16:56:47 - [MESSAGE][PASSED] - Object 'Object Repository/PageDoubleLogIn/validateLCPRStandardUser' is present
+
+2022-12-26 16:56:48 - [MESSAGE][PASSED] - Object 'Object Repository/PageDoubleLogIn/validateBussinessUnit' is present
+
+2022-12-26 16:57:32 - [MESSAGE][PASSED] - Object: 'Object Repository/PageDoubleLogIn/input_User Detail_login' is clicked on
+
+2022-12-26 16:57:36 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-12-26 16:57:37 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:57:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054056143.png]]
+
+2022-12-26 16:57:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:57:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-User Detail_login.png]]
+
+2022-12-26 16:57:39 - [MESSAGE][PASSED] - uk.capgemini.controllers.Login.secondLoginwithLcprUser is PASSED
+
+2022-12-26 16:57:39 - [TEST_STEP][PASSED] - uk.capgemini.controllers.Opportunity.createNewOpportunity(TC_Name): uk.capgemini.controllers.Opportunity.createNewOpportunity is PASSED
+
+2022-12-26 16:57:45 - [MESSAGE][PASSED] - Navigate to 'https://cwc--uatsfdc.sandbox.my.salesforce.com/lightning/o/Opportunity/list?filterName=Recent' successfully
+
+2022-12-26 16:57:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:57:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-gotoOpportunity.png]]
+
+2022-12-26 16:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/PageOpportunity/btn_NewOpportunity_L' is clicked on
+
+2022-12-26 16:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/PageOpportunity/btn_Next_L' is clicked on
+
+2022-12-26 16:57:57 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:57:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054076976.png]]
+
+2022-12-26 16:57:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:57:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-NewOpportunity.png]]
+
+2022-12-26 16:57:58 - [MESSAGE][PASSED] - uk.capgemini.controllers.Opportunity.createNewOpportunity is PASSED
+
+2022-12-26 16:57:58 - [TEST_STEP][PASSED] - uk.capgemini.controllers.Opportunity.manageOpportunity(AccountName, OpportunityName, todayDate, Stage, ContractTerm, HIUnumber, todayDateTime, CloseDate, OrderSignedDate, TC_Name): uk.capgemini.controllers.Opportunity.manageOpportunity is PASSED
+
+2022-12-26 16:57:59 - [MESSAGE][PASSED] - Text 'SANTA MARTA INTERNATIONAL TERMINAL COMPANY S.A' is set on object 'Object Repository/PageOpportunity/input_AccountName_L'
+
+2022-12-26 16:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/PageOpportunity/Select_Account_L(Dynamic)' is clicked on
+
+2022-12-26 16:58:02 - [MESSAGE][PASSED] - Text 'QA_LCPR_Test01_12262022_045758' is set on object 'Object Repository/PageOpportunity/input_OpportunityName_L'
+
+2022-12-26 16:58:03 - [MESSAGE][PASSED] - Text '12/26/2022' is set on object 'Object Repository/PageOpportunity/input_ClosedDate_L'
+
+2022-12-26 16:58:04 - [MESSAGE][PASSED] - Object: 'Object Repository/PageOpportunity/Select_Stage_L' is clicked on
+
+2022-12-26 16:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/PageOpportunity/Select_Stage_PQ_L' is clicked on
+
+2022-12-26 16:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/PageOpportunity/Select_ContractTerm_L' is clicked on
+
+2022-12-26 16:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/PageOpportunity/Selct_Term_L' is clicked on
+
+2022-12-26 16:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/PageOpportunity/Select_CWBMarketSegment' is clicked on
+
+2022-12-26 16:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/PageOpportunity/Option_Segment' is clicked on
+
+2022-12-26 16:58:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@title="SOHO"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-12-26 16:58:38 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PageOpportunity/Option_Segment_SOHO'. Try using Self-healing.
+
+2022-12-26 16:58:39 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-12-26 16:58:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-12-26 16:58:41 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-12-26 16:58:41 - [MESSAGE][WARNING] - Unable to click on object 'Object Repository/PageOpportunity/Option_Segment_SOHO' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PageOpportunity/Option_Segment_SOHO'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at uk.capgemini.controllers.Opportunity.manageOpportunity(Opportunity.groovy:125)
+	at uk.capgemini.controllers.Opportunity.invokeMethod(Opportunity.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at QA-5756_LCPR - Regression Test Happy Path with 3 products.run(QA-5756_LCPR - Regression Test Happy Path with 3 products:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1672053829514.run(TempTestSuite1672053829514.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageOpportunity/Option_Segment_SOHO' located by '//a[@title="SOHO"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at uk.capgemini.controllers.Opportunity.manageOpportunity(Opportunity.groovy:125)
+	at uk.capgemini.controllers.Opportunity.invokeMethod(Opportunity.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1667403378708.run(Script1667403378708.groovy:43)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054121114.png]]
+
+2022-12-26 16:58:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:58:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054121325.png]]
+
+2022-12-26 16:58:42 - [MESSAGE][PASSED] - Text '987654321123456' is set on object 'Object Repository/PageOpportunity/input_HIUNumber_L'
+
+2022-12-26 16:58:43 - [MESSAGE][PASSED] - Text '12/26/2022' is set on object 'Object Repository/PageOpportunity/input_OrderSignedDate_L'
+
+2022-12-26 16:58:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:58:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054123743.png]]
+
+2022-12-26 16:58:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:58:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-manageOpportunity.png]]
+
+2022-12-26 16:58:45 - [MESSAGE][PASSED] - Object: 'Object Repository/PageOpportunity/btn_Save_L' is clicked on
+
+2022-12-26 16:58:45 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:58:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054125528.png]]
+
+2022-12-26 16:58:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:58:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-SaveOpportunity.png]]
+
+2022-12-26 16:58:56 - [MESSAGE][PASSED] - Object 'Object Repository/PageOpportunity/Btn_Closethiswindow' is visible
+
+2022-12-26 16:58:56 - [MESSAGE][PASSED] - Object: 'Object Repository/PageOpportunity/btn_Save_L' is clicked on
+
+2022-12-26 16:59:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-26 16:59:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@title="Close this window"]/lightning-primitive-icon'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-12-26 16:59:33 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PageOpportunity/Btn_Closethiswindow'. Try using Self-healing.
+
+2022-12-26 16:59:34 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-12-26 16:59:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-12-26 16:59:35 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-12-26 16:59:35 - [MESSAGE][WARNING] - Unable to click on object 'Object Repository/PageOpportunity/Btn_Closethiswindow' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PageOpportunity/Btn_Closethiswindow'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at uk.capgemini.controllers.Opportunity.manageOpportunity(Opportunity.groovy:184)
+	at uk.capgemini.controllers.Opportunity.invokeMethod(Opportunity.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at QA-5756_LCPR - Regression Test Happy Path with 3 products.run(QA-5756_LCPR - Regression Test Happy Path with 3 products:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1672053829514.run(TempTestSuite1672053829514.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageOpportunity/Btn_Closethiswindow' located by '//button[@title="Close this window"]/lightning-primitive-icon' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at uk.capgemini.controllers.Opportunity.manageOpportunity(Opportunity.groovy:184)
+	at uk.capgemini.controllers.Opportunity.invokeMethod(Opportunity.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1667403378708.run(Script1667403378708.groovy:43)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054175337.png]]
+
+2022-12-26 16:59:36 - [MESSAGE][PASSED] - Object 'Object Repository/PageOpportunity/Btn_OppDetails_L' is visible
+
+2022-12-26 16:59:36 - [MESSAGE][PASSED] - Object: 'Object Repository/PageOpportunity/Btn_OppDetails_L' is clicked on
+
+2022-12-26 16:59:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-26 16:59:43 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:59:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054181550.png]]
+
+2022-12-26 16:59:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 16:59:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-OpportunityDetail.png]]
+
+2022-12-26 16:59:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-26 16:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PageAddService/Btn_ProductMenu_L' is clicked on
+
+2022-12-26 16:59:50 - [MESSAGE][PASSED] - Object 'Object Repository/PageAddService/Btn_AddNewServices_L' is visible
+
+2022-12-26 16:59:51 - [MESSAGE][PASSED] - Object: 'Object Repository/PageAddService/Btn_AddNewServices_L' is clicked on
+
+2022-12-26 17:00:21 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2022-12-26 17:00:21 - [MESSAGE][PASSED] - uk.capgemini.controllers.Opportunity.manageOpportunity is PASSED
+
+2022-12-26 17:00:21 - [TEST_STEP][PASSED] - if (AccountName.equals("Null") || OpportunityName.equals("Null") || CloseDate.equals("Null") || Stage.equals("Null")): null
+
+2022-12-26 17:00:21 - [TEST_STEP][PASSED] - if (NoofProducts.equals("1")): uk.capgemini.controllers.Product.showCart is PASSED
+
+2022-12-26 17:00:21 - [TEST_STEP][PASSED] - uk.capgemini.controllers.Product.newService(TC_Name, Product1): uk.capgemini.controllers.Product.newService is PASSED
+
+2022-12-26 17:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PageAddService/lightning-primitive-icon' is clicked on
+
+2022-12-26 17:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/PageAddService/span_SOHO Internet' is clicked on
+
+2022-12-26 17:00:24 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 17:00:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054223594.png]]
+
+2022-12-26 17:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PageAddService/Configure_SOHO Internet' is clicked on
+
+2022-12-26 17:00:25 - [MESSAGE][PASSED] - uk.capgemini.controllers.Product.newService is PASSED
+
+2022-12-26 17:00:25 - [TEST_STEP][PASSED] - uk.capgemini.controllers.Product.addOfferAttributes(TermFrequency, TemporaryTransaction, Quantity, Term, TC_Name): uk.capgemini.controllers.Product.addOfferAttributes is PASSED
+
+2022-12-26 17:00:29 - [MESSAGE][PASSED] - All options with value 'Months' are selected in object 'Object Repository/PageOfferAtrributes/TermFrequency'  using regular expression
+
+2022-12-26 17:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PageOfferAtrributes/svg_Location_slds-icon slds-icon_small' is clicked on
+
+2022-12-26 17:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/PageOfferAtrributes/span_EnterpriseEnterprise' is clicked on
+
+2022-12-26 17:00:30 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/PageOfferAtrributes/TemporaryTransaction'  using regular expression
+
+2022-12-26 17:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/PageOfferAtrributes/svg_Contact_slds-icon slds-icon_small' is clicked on
+
+2022-12-26 17:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/PageOfferAtrributes/span_Test lcpr leadTest lcpr lead' is clicked on
+
+2022-12-26 17:00:31 - [MESSAGE][PASSED] - Text 'Months' is present on page  using regular expression
+
+2022-12-26 17:00:32 - [MESSAGE][PASSED] - Text 'No' is present on page  using regular expression
+
+2022-12-26 17:00:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 17:00:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054232071.png]]
+
+2022-12-26 17:00:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 17:00:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Product_addOfferAttributes.png]]
+
+2022-12-26 17:00:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-26 17:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PageComponents/a_Components' is clicked on
+
+2022-12-26 17:00:35 - [MESSAGE][PASSED] - uk.capgemini.controllers.Product.addOfferAttributes is PASSED
+
+2022-12-26 17:00:35 - [TEST_STEP][PASSED] - if (TermFrequency.equals("Null") || TemporaryTransaction.equals("Null")): null
+
+2022-12-26 17:00:35 - [TEST_STEP][PASSED] - uk.capgemini.controllers.Product.addcomponents(Product1, Discountproduct1, TypeVideo1, Bandwidth1, LineNumbers1, TypeDeco1, TC_Name): uk.capgemini.controllers.Product.addcomponents is PASSED
+
+2022-12-26 17:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PageComponents/lightning-primitive-icon_1' is clicked on
+
+2022-12-26 17:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/PageComponents/span_SOHO Double Pack 1_slds-checkbox_faux' is clicked on
+
+2022-12-26 17:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/PageComponents/lightning-primitive-icon_1_2' is clicked on
+
+2022-12-26 17:00:42 - [MESSAGE][PASSED] - All options with label '10 USD' are selected in object 'Object Repository/PageComponents/Discount product'  using regular expression
+
+2022-12-26 17:00:42 - [MESSAGE][WARNING] - No option matched.
+
+2022-12-26 17:00:42 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 17:00:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054242333.png]]
+
+2022-12-26 17:00:43 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 17:00:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Product_addComponents.png]]
+
+2022-12-26 17:00:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-26 17:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/PageComponents/button_Save' is clicked on
+
+2022-12-26 17:00:45 - [MESSAGE][PASSED] - uk.capgemini.controllers.Product.addcomponents is PASSED
+
+2022-12-26 17:00:45 - [TEST_STEP][PASSED] - uk.capgemini.controllers.Product.calculatePrice(TC_Name): uk.capgemini.controllers.Product.calculatePrice is PASSED
+
+2022-12-26 17:00:46 - [MESSAGE][PASSED] - Object: 'Object Repository/PageComponents/button_Calculate Price' is clicked on
+
+2022-12-26 17:00:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 17:00:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054246105.png]]
+
+2022-12-26 17:00:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 17:00:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-calculatePrice.png]]
+
+2022-12-26 17:00:46 - [MESSAGE][PASSED] - uk.capgemini.controllers.Product.calculatePrice is PASSED
+
+2022-12-26 17:00:46 - [TEST_STEP][PASSED] - uk.capgemini.controllers.Product.showCart(TC_Name): uk.capgemini.controllers.Product.showCart is PASSED
+
+2022-12-26 17:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PageComponents/button_Show Cart' is clicked on
+
+2022-12-26 17:00:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 17:00:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054253700.png]]
+
+2022-12-26 17:00:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 17:00:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-showCart.png]]
+
+2022-12-26 17:00:54 - [MESSAGE][PASSED] - uk.capgemini.controllers.Product.showCart is PASSED
+
+2022-12-26 17:00:54 - [TEST_STEP][PASSED] - if (NoofProducts.equals("2")): null
+
+2022-12-26 17:00:54 - [TEST_STEP][PASSED] - if (NoofProducts.equals("3")): null
+
+2022-12-26 17:00:54 - [TEST_STEP][PASSED] - uk.capgemini.controllers.Product.ApprovalCheck(TC_Name): uk.capgemini.controllers.Product.ApprovalCheck is PASSED
+
+2022-12-26 17:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/PageComponents/button_Approval Check' is clicked on
+
+2022-12-26 17:01:02 - [MESSAGE][PASSED] - Object 'Object Repository/PageComponents/calculating some metrics for this quote' is present
+
+2022-12-26 17:01:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-26 17:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/PageComponents/button_Approval Check' is clicked on
+
+2022-12-26 17:01:08 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 17:01:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054268155.png]]
+
+2022-12-26 17:01:08 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 17:01:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-ApprovalCheck.png]]
+
+2022-12-26 17:01:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-26 17:01:12 - [MESSAGE][PASSED] - uk.capgemini.controllers.Product.ApprovalCheck is PASSED
+
+2022-12-26 17:01:12 - [TEST_STEP][PASSED] - uk.capgemini.controllers.Quote.gotoQuote(TC_Name): uk.capgemini.controllers.Quote.gotoQuote is PASSED
+
+2022-12-26 17:01:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //iframe[@title="accessibility title"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-12-26 17:01:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PageQuote/iframe_gotoQuote'. Try using Self-healing.
+
+2022-12-26 17:01:44 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-12-26 17:01:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-12-26 17:01:45 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-12-26 17:01:45 - [MESSAGE][WARNING] - Unable to verify image 'Object Repository/PageQuote/iframe_gotoQuote' present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/PageQuote/iframe_gotoQuote' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2880)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$13.call(Unknown Source)
+	at uk.capgemini.controllers.Quote.gotoQuote(Quote.groovy:29)
+	at uk.capgemini.controllers.Quote.invokeMethod(Quote.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at QA-5756_LCPR - Regression Test Happy Path with 3 products.run(QA-5756_LCPR - Regression Test Happy Path with 3 products:95)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1672053829514.run(TempTestSuite1672053829514.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageQuote/iframe_gotoQuote' located by '//iframe[@title="accessibility title"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2880)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$13.call(Unknown Source)
+	at uk.capgemini.controllers.Quote.gotoQuote(Quote.groovy:29)
+	at uk.capgemini.controllers.Quote.invokeMethod(Quote.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1667403378708.run(Script1667403378708.groovy:95)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054305239.png]]
+
+2022-12-26 17:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/PageQuote/button_Go To Quote' is clicked on
+
+2022-12-26 17:01:58 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-12-26 17:02:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 17:02:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AYKRISHN\\Salesforce_Automation\\lcpr_salesforce_automation\\Reports\\20221226_165339\\LCPR_RegressionSuite_QA_new\\20221226_165349\\1672054318011.png]]
+
+2022-12-26 17:02:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-26 17:02:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-gotoQuote.png]]
+
+2022-12-26 17:02:02 - [MESSAGE][PASSED] - uk.capgemini.controllers.Quote.gotoQuote is PASSED
+
+2022-12-26 17:02:02 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-26 16:54:14 - [TEST_SUITE][PASSED] - LCPR_RegressionSuite_QA_new: Test Cases/Regression/JIRA/QA-5756_LCPR - Regression Test Happy Path with 3 products]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

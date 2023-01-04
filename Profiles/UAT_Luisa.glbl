@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>UAT_Luisa</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://cwc--uat.my.salesforce.com/'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'luisa.fernanda@cwc.com.uat'</initValue>
+      <name>userName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Abundancia2022$$$'</initValue>
+      <name>passWord</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

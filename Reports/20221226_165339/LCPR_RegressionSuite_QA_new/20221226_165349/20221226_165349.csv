@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LCPR_RegressionSuite_QA_new,Chrome 108.0.0.0,,,2022-12-26 16:54:14,2022-12-26 17:02:02,7m - 48.121s,PASSED
+,,,,,,,
+Test Cases/Regression/JIRA/QA-5756_LCPR - Regression Test Happy Path with 3 products,Chrome 108.0.0.0,,QA-6369,2022-12-26 16:54:15,2022-12-26 17:02:02,7m - 46.718s,PASSED
+todayDate = calculateTodayDate(),Chrome 108.0.0.0,,,2022-12-26 16:54:17,2022-12-26 16:54:17,0.002s,PASSED
+"todayDate = """"",Chrome 108.0.0.0,,,2022-12-26 16:54:17,2022-12-26 16:54:17,0.001s,PASSED
+cal = Calendar.getInstance(),Chrome 108.0.0.0,,,2022-12-26 16:54:17,2022-12-26 16:54:17,0.012s,PASSED
+"todayDate = todayDate + cal.get(MONTH) + 1 + ""/""",Chrome 108.0.0.0,,,2022-12-26 16:54:17,2022-12-26 16:54:17,0.065s,PASSED
+"todayDate = todayDate + cal.get(DAY_OF_MONTH) + ""/""",Chrome 108.0.0.0,,,2022-12-26 16:54:17,2022-12-26 16:54:17,0.001s,PASSED
+todayDate = todayDate + cal.get(YEAR),Chrome 108.0.0.0,,,2022-12-26 16:54:17,2022-12-26 16:54:17,0.004s,PASSED
+return todayDate,Chrome 108.0.0.0,,,2022-12-26 16:54:17,2022-12-26 16:54:17,0.001s,PASSED
+todayDateTime = calculateTodayDateTime(),Chrome 108.0.0.0,,,2022-12-26 16:54:17,2022-12-26 16:54:17,0.001s,PASSED
+"todayDateTime = """"",Chrome 108.0.0.0,,,2022-12-26 16:54:17,2022-12-26 16:54:17,0.001s,PASSED
+cal = Calendar.getInstance(),Chrome 108.0.0.0,,,2022-12-26 16:54:17,2022-12-26 16:54:17,0.001s,PASSED
+"todayDateTime = todayDateTime + cal.get(MONTH) + 1 + ""/""",Chrome 108.0.0.0,,,2022-12-26 16:54:17,2022-12-26 16:54:17,0.004s,PASSED
+"todayDateTime = todayDateTime + cal.get(DAY_OF_MONTH) + ""/""",Chrome 108.0.0.0,,,2022-12-26 16:54:17,2022-12-26 16:54:17,0.002s,PASSED
+"todayDateTime = todayDateTime + cal.get(YEAR) + "" """,Chrome 108.0.0.0,,,2022-12-26 16:54:17,2022-12-26 16:54:17,0.005s,PASSED
+now = LocalTime.now(),Chrome 108.0.0.0,,,2022-12-26 16:54:17,2022-12-26 16:54:17,0.022s,PASSED
+"dateTimeFormatter = DateTimeFormatter.ofPattern(""hh:mm a"")",Chrome 108.0.0.0,,,2022-12-26 16:54:17,2022-12-26 16:54:17,0.018s,PASSED
+todayDateTime += now.format(dateTimeFormatter),Chrome 108.0.0.0,,,2022-12-26 16:54:17,2022-12-26 16:54:18,0.169s,PASSED
+return todayDateTime,Chrome 108.0.0.0,,,2022-12-26 16:54:18,2022-12-26 16:54:18,0.000s,PASSED
+today = new java.util.Date(),Chrome 108.0.0.0,,,2022-12-26 16:54:18,2022-12-26 16:54:18,0.007s,PASSED
+"todaysDate1 = today.format(""MM_dd_yy"")",Chrome 108.0.0.0,,,2022-12-26 16:54:18,2022-12-26 16:54:18,0.061s,PASSED
+"nowTime1 = today.format(""hhmmss"")",Chrome 108.0.0.0,,,2022-12-26 16:54:18,2022-12-26 16:54:18,0.001s,PASSED
+"uk.capgemini.controllers.Login.navigateToLCPRurl(url, TC_Name)",Chrome 108.0.0.0,,,2022-12-26 16:54:18,2022-12-26 16:55:10,52.396s,PASSED
+"uk.capgemini.controllers.Login.loginwithCredentials(userName, passWord, TC_Name)",Chrome 108.0.0.0,,,2022-12-26 16:55:10,2022-12-26 16:56:02,51.704s,PASSED
+"uk.capgemini.controllers.Login.secondLoginwithLcprUser(LoginwithSecondUser, TC_Name)",Chrome 108.0.0.0,,,2022-12-26 16:56:02,2022-12-26 16:57:39,1m - 36.826s,PASSED
+uk.capgemini.controllers.Opportunity.createNewOpportunity(TC_Name),Chrome 108.0.0.0,,,2022-12-26 16:57:39,2022-12-26 16:57:58,19.472s,PASSED
+"uk.capgemini.controllers.Opportunity.manageOpportunity(AccountName, OpportunityName, todayDate, Stage, ContractTerm, HIUnumber, todayDateTime, CloseDate, OrderSignedDate, TC_Name)",Chrome 108.0.0.0,,,2022-12-26 16:57:58,2022-12-26 17:00:21,2m - 22.941s,PASSED
+"if (AccountName.equals(""Null"") || OpportunityName.equals(""Null"") || CloseDate.equals(""Null"") || Stage.equals(""Null""))",Chrome 108.0.0.0,,,2022-12-26 17:00:21,2022-12-26 17:00:21,0.002s,PASSED
+"if (NoofProducts.equals(""1""))",Chrome 108.0.0.0,,,2022-12-26 17:00:21,2022-12-26 17:00:54,33.044s,PASSED
+"if (NoofProducts.equals(""2""))",Chrome 108.0.0.0,,,2022-12-26 17:00:54,2022-12-26 17:00:54,0.000s,PASSED
+"if (NoofProducts.equals(""3""))",Chrome 108.0.0.0,,,2022-12-26 17:00:54,2022-12-26 17:00:54,0.001s,PASSED
+uk.capgemini.controllers.Product.ApprovalCheck(TC_Name),Chrome 108.0.0.0,,,2022-12-26 17:00:54,2022-12-26 17:01:12,17.559s,PASSED
+uk.capgemini.controllers.Quote.gotoQuote(TC_Name),Chrome 108.0.0.0,,,2022-12-26 17:01:12,2022-12-26 17:02:02,50.214s,PASSED
+return null,Chrome 108.0.0.0,,,2022-12-26 17:02:02,2022-12-26 17:02:02,0.000s,PASSED

@@ -1,0 +1,54 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PageDoubleLogIn/input_Logout_str",
+      "brokenLocator": "//input[@id\u003d\u0027phSearchInput\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PageDoubleLogIn/input_Logout_str_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PageOfferAtrributes/span_Test lcpr leadTest lcpr lead",
+      "brokenLocator": "//span[@id\u003d\u0027listbox-option-unique-id-01\u0027]/span[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Local Contact\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PageOfferAtrributes/span_Test lcpr leadTest lcpr lead_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PageAddService/lightning-primitive-icon",
+      "brokenLocator": "//button[@class\u003d\u0027slds-button slds-button_icon slds-m-around_small slds-p-around_xxx-small slds-border_top slds-border_bottom slds-border_left slds-border_right slds-button_icon-border\u0027]/lightning-primitive-icon",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tabs\u0027])[1]/following::lightning-primitive-icon[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PageAddService/lightning-primitive-icon_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PageDoubleLogIn/a_LCPR USER DO NOT INACTIVATE Test 01",
+      "brokenLocator": "//a[@onclick\u003d\u0027searchResultClick.mousedown(this, event)\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Following\u0027])[1]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PageOfferAtrributes/span_Test lcpr leadTest lcpr lead",
+      "brokenLocator": "//span[@id\u003d\u0027listbox-option-unique-id-01\u0027]/span[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}
